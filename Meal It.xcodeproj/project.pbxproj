@@ -7,18 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00568E2426C054E300E47487 /* NewDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00568E2326C054E300E47487 /* NewDashboardViewController.swift */; };
-		00568E3026C0553B00E47487 /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00568E2626C0553B00E47487 /* NewRecipeView.swift */; };
-		00568E3126C0553B00E47487 /* Searchoption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00568E2726C0553B00E47487 /* Searchoption.swift */; };
-		00568E3226C0553B00E47487 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00568E2826C0553B00E47487 /* SearchViewModel.swift */; };
-		00568E3326C0553B00E47487 /* SearchUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00568E2926C0553B00E47487 /* SearchUIView.swift */; };
-		00568E3426C0553B00E47487 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00568E2A26C0553B00E47487 /* Constants.swift */; };
-		00568E3526C0553B00E47487 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00568E2B26C0553B00E47487 /* SwiftUIView.swift */; };
-		00568E3626C0553B00E47487 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00568E2C26C0553B00E47487 /* Dish.swift */; };
-		00568E3726C0553B00E47487 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00568E2D26C0553B00E47487 /* RecipeView.swift */; };
-		00568E3826C0553B00E47487 /* RecipeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00568E2E26C0553B00E47487 /* RecipeDetailsView.swift */; };
-		00568E3926C0553B00E47487 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00568E2F26C0553B00E47487 /* RecipeViewModel.swift */; };
-		00568E3C26C055C900E47487 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 00568E3B26C055C900E47487 /* SDWebImageSwiftUI */; };
+		0085EE8226C03B0C0052F726 /* NewDashboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085EE8126C03B0C0052F726 /* NewDashboardViewController.swift */; };
+		0085EE8526C03BAE0052F726 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 0085EE8426C03BAE0052F726 /* SDWebImageSwiftUI */; };
+		0085EEAA26C03CA20052F726 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085EEA026C03CA20052F726 /* Dish.swift */; };
+		0085EEAB26C03CA20052F726 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085EEA126C03CA20052F726 /* SearchViewModel.swift */; };
+		0085EEAC26C03CA20052F726 /* RecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085EEA226C03CA20052F726 /* RecipeViewModel.swift */; };
+		0085EEAD26C03CA20052F726 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085EEA326C03CA20052F726 /* RecipeView.swift */; };
+		0085EEAE26C03CA20052F726 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085EEA426C03CA20052F726 /* Constants.swift */; };
+		0085EEAF26C03CA20052F726 /* NewRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085EEA526C03CA20052F726 /* NewRecipeView.swift */; };
+		0085EEB026C03CA20052F726 /* RecipeDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085EEA626C03CA20052F726 /* RecipeDetailsView.swift */; };
+		0085EEB126C03CA20052F726 /* Searchoption.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085EEA726C03CA20052F726 /* Searchoption.swift */; };
+		0085EEB226C03CA20052F726 /* SearchUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085EEA826C03CA20052F726 /* SearchUIView.swift */; };
+		0085EEB326C03CA20052F726 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0085EEA926C03CA20052F726 /* SwiftUIView.swift */; };
 		00948221267C183D00888ED7 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00948220267C183D00888ED7 /* SignUpViewController.swift */; };
 		00948223267C197000888ED7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00948222267C197000888ED7 /* HomeViewController.swift */; };
 		00948225267C22D000888ED7 /* CheckHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00948224267C22D000888ED7 /* CheckHelper.swift */; };
@@ -70,17 +70,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		00568E2326C054E300E47487 /* NewDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewDashboardViewController.swift; sourceTree = "<group>"; };
-		00568E2626C0553B00E47487 /* NewRecipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewRecipeView.swift; path = "Meal It/DashboardUI/NewRecipeView.swift"; sourceTree = SOURCE_ROOT; };
-		00568E2726C0553B00E47487 /* Searchoption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Searchoption.swift; path = "Meal It/DashboardUI/Searchoption.swift"; sourceTree = SOURCE_ROOT; };
-		00568E2826C0553B00E47487 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewModel.swift; path = "Meal It/DashboardUI/SearchViewModel.swift"; sourceTree = SOURCE_ROOT; };
-		00568E2926C0553B00E47487 /* SearchUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchUIView.swift; path = "Meal It/DashboardUI/SearchUIView.swift"; sourceTree = SOURCE_ROOT; };
-		00568E2A26C0553B00E47487 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "Meal It/DashboardUI/Constants.swift"; sourceTree = SOURCE_ROOT; };
-		00568E2B26C0553B00E47487 /* SwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftUIView.swift; path = "Meal It/DashboardUI/SwiftUIView.swift"; sourceTree = SOURCE_ROOT; };
-		00568E2C26C0553B00E47487 /* Dish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dish.swift; path = "Meal It/DashboardUI/Dish.swift"; sourceTree = SOURCE_ROOT; };
-		00568E2D26C0553B00E47487 /* RecipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecipeView.swift; path = "Meal It/DashboardUI/RecipeView.swift"; sourceTree = SOURCE_ROOT; };
-		00568E2E26C0553B00E47487 /* RecipeDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecipeDetailsView.swift; path = "Meal It/DashboardUI/RecipeDetailsView.swift"; sourceTree = SOURCE_ROOT; };
-		00568E2F26C0553B00E47487 /* RecipeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecipeViewModel.swift; path = "Meal It/DashboardUI/RecipeViewModel.swift"; sourceTree = SOURCE_ROOT; };
+		0085EE8126C03B0C0052F726 /* NewDashboardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewDashboardViewController.swift; path = "../../../Meal it project 2 videos/Meal It/Controller/NewDashboardViewController.swift"; sourceTree = "<group>"; };
+		0085EEA026C03CA20052F726 /* Dish.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Dish.swift; path = "../../../Meal it project 2 videos/Meal It/DashboardUI/Dish.swift"; sourceTree = "<group>"; };
+		0085EEA126C03CA20052F726 /* SearchViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchViewModel.swift; path = "../../../Meal it project 2 videos/Meal It/DashboardUI/SearchViewModel.swift"; sourceTree = "<group>"; };
+		0085EEA226C03CA20052F726 /* RecipeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecipeViewModel.swift; path = "../../../Meal it project 2 videos/Meal It/DashboardUI/RecipeViewModel.swift"; sourceTree = "<group>"; };
+		0085EEA326C03CA20052F726 /* RecipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecipeView.swift; path = "../../../Meal it project 2 videos/Meal It/DashboardUI/RecipeView.swift"; sourceTree = "<group>"; };
+		0085EEA426C03CA20052F726 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = "../../../Meal it project 2 videos/Meal It/DashboardUI/Constants.swift"; sourceTree = "<group>"; };
+		0085EEA526C03CA20052F726 /* NewRecipeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewRecipeView.swift; path = "../../../Meal it project 2 videos/Meal It/DashboardUI/NewRecipeView.swift"; sourceTree = "<group>"; };
+		0085EEA626C03CA20052F726 /* RecipeDetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RecipeDetailsView.swift; path = "../../../Meal it project 2 videos/Meal It/DashboardUI/RecipeDetailsView.swift"; sourceTree = "<group>"; };
+		0085EEA726C03CA20052F726 /* Searchoption.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Searchoption.swift; path = "../../../Meal it project 2 videos/Meal It/DashboardUI/Searchoption.swift"; sourceTree = "<group>"; };
+		0085EEA826C03CA20052F726 /* SearchUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchUIView.swift; path = "../../../Meal it project 2 videos/Meal It/DashboardUI/SearchUIView.swift"; sourceTree = "<group>"; };
+		0085EEA926C03CA20052F726 /* SwiftUIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftUIView.swift; path = "../../../Meal it project 2 videos/Meal It/DashboardUI/SwiftUIView.swift"; sourceTree = "<group>"; };
 		00948220267C183D00888ED7 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		00948222267C197000888ED7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		00948224267C22D000888ED7 /* CheckHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckHelper.swift; sourceTree = "<group>"; };
@@ -142,7 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00568E3C26C055C900E47487 /* SDWebImageSwiftUI in Frameworks */,
+				0085EE8526C03BAE0052F726 /* SDWebImageSwiftUI in Frameworks */,
 				9A2DC11D862AEDEBC0875915 /* Pods_Meal_It.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -150,21 +150,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00568E2526C0552000E47487 /* Dashboard UI */ = {
+		0085EE9F26C03C700052F726 /* DashboardUI */ = {
 			isa = PBXGroup;
 			children = (
-				00568E2A26C0553B00E47487 /* Constants.swift */,
-				00568E2C26C0553B00E47487 /* Dish.swift */,
-				00568E2626C0553B00E47487 /* NewRecipeView.swift */,
-				00568E2E26C0553B00E47487 /* RecipeDetailsView.swift */,
-				00568E2D26C0553B00E47487 /* RecipeView.swift */,
-				00568E2F26C0553B00E47487 /* RecipeViewModel.swift */,
-				00568E2726C0553B00E47487 /* Searchoption.swift */,
-				00568E2926C0553B00E47487 /* SearchUIView.swift */,
-				00568E2826C0553B00E47487 /* SearchViewModel.swift */,
-				00568E2B26C0553B00E47487 /* SwiftUIView.swift */,
+				0085EEA426C03CA20052F726 /* Constants.swift */,
+				0085EEA026C03CA20052F726 /* Dish.swift */,
+				0085EEA526C03CA20052F726 /* NewRecipeView.swift */,
+				0085EEA626C03CA20052F726 /* RecipeDetailsView.swift */,
+				0085EEA326C03CA20052F726 /* RecipeView.swift */,
+				0085EEA226C03CA20052F726 /* RecipeViewModel.swift */,
+				0085EEA726C03CA20052F726 /* Searchoption.swift */,
+				0085EEA826C03CA20052F726 /* SearchUIView.swift */,
+				0085EEA126C03CA20052F726 /* SearchViewModel.swift */,
+				0085EEA926C03CA20052F726 /* SwiftUIView.swift */,
 			);
-			path = "Dashboard UI";
+			path = DashboardUI;
 			sourceTree = "<group>";
 		};
 		7C59D3F9B0FDE51947288F20 /* Pods */ = {
@@ -216,7 +216,7 @@
 		F28124BC263FA79E00280251 /* Meal It */ = {
 			isa = PBXGroup;
 			children = (
-				00568E2526C0552000E47487 /* Dashboard UI */,
+				0085EE9F26C03C700052F726 /* DashboardUI */,
 				F2A2C4AD264125EC00D59D69 /* Data */,
 				F2A2C4AA264125D700D59D69 /* Helper */,
 				F2A2C4A72641257F00D59D69 /* Extension */,
@@ -291,7 +291,7 @@
 				00948222267C197000888ED7 /* HomeViewController.swift */,
 				00A7B6D526839F3400A3E596 /* InterestViewController.swift */,
 				00F87E0226A096F700D0344B /* YoutubePlayerViewController.swift */,
-				00568E2326C054E300E47487 /* NewDashboardViewController.swift */,
+				0085EE8126C03B0C0052F726 /* NewDashboardViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -360,7 +360,7 @@
 			);
 			name = "Meal It";
 			packageProductDependencies = (
-				00568E3B26C055C900E47487 /* SDWebImageSwiftUI */,
+				0085EE8426C03BAE0052F726 /* SDWebImageSwiftUI */,
 			);
 			productName = Smoothie;
 			productReference = F28124BA263FA79E00280251 /* Meal It.app */;
@@ -390,7 +390,7 @@
 			);
 			mainGroup = F28124B1263FA79E00280251;
 			packageReferences = (
-				00568E3A26C055C900E47487 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				0085EE8326C03BAE0052F726 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 			);
 			productRefGroup = F28124BB263FA79E00280251 /* Products */;
 			projectDirPath = "";
@@ -465,7 +465,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0085EEB126C03CA20052F726 /* Searchoption.swift in Sources */,
 				F28124FD263FAA7800280251 /* Favorite.swift in Sources */,
+				0085EEB326C03CA20052F726 /* SwiftUIView.swift in Sources */,
 				F2DEC24F263FCE8B00DD6DFC /* DashboardViewController.swift in Sources */,
 				00DBB6B8267C5CCB008E2E12 /* BackHelper.swift in Sources */,
 				F28124FC263FAA7800280251 /* Recipe.swift in Sources */,
@@ -474,11 +476,12 @@
 				F28124DE263FA86000280251 /* Custom_Button.swift in Sources */,
 				F2A2C4A626411CFB00D59D69 /* VideoTableViewCell.swift in Sources */,
 				F2A2C4A426411AE700D59D69 /* MealItTableViewCell.swift in Sources */,
+				0085EEAD26C03CA20052F726 /* RecipeView.swift in Sources */,
+				0085EEAA26C03CA20052F726 /* Dish.swift in Sources */,
 				00A7B6D626839F3400A3E596 /* InterestViewController.swift in Sources */,
 				F2A2C4A226411AAA00D59D69 /* RecommendationCollectionViewCell.swift in Sources */,
 				F2DEC255263FCEC800DD6DFC /* SettingViewController.swift in Sources */,
 				F2D724A7264017CB00E0DD12 /* DetailViewController.swift in Sources */,
-				00568E3526C0553B00E47487 /* SwiftUIView.swift in Sources */,
 				F2FB3B01264283CF003AA63F /* Meal.swift in Sources */,
 				F2FB3B02264283CF003AA63F /* Meals.swift in Sources */,
 				00F87E0326A096F700D0344B /* YoutubePlayerViewController.swift in Sources */,
@@ -487,33 +490,30 @@
 				F2DEC261263FEC6700DD6DFC /* PrivacyViewController.swift in Sources */,
 				F28124DF263FA86000280251 /* Custom_ImageView.swift in Sources */,
 				F28124C2263FA79E00280251 /* ViewController.swift in Sources */,
-				00568E3126C0553B00E47487 /* Searchoption.swift in Sources */,
-				00568E3326C0553B00E47487 /* SearchUIView.swift in Sources */,
-				00568E3726C0553B00E47487 /* RecipeView.swift in Sources */,
-				00568E3226C0553B00E47487 /* SearchViewModel.swift in Sources */,
 				F28124DC263FA86000280251 /* Custom_Label.swift in Sources */,
-				00568E2426C054E300E47487 /* NewDashboardViewController.swift in Sources */,
+				0085EE8226C03B0C0052F726 /* NewDashboardViewController.swift in Sources */,
 				F2DEC251263FCEA500DD6DFC /* VideoViewController.swift in Sources */,
 				F2A2C4BC26412A1100D59D69 /* VideoPlayerViewController.swift in Sources */,
 				F28124E0263FA86000280251 /* UnderlinedTextField.swift in Sources */,
-				00568E3426C0553B00E47487 /* Constants.swift in Sources */,
 				F28124BE263FA79E00280251 /* AppDelegate.swift in Sources */,
+				0085EEAE26C03CA20052F726 /* Constants.swift in Sources */,
+				0085EEAF26C03CA20052F726 /* NewRecipeView.swift in Sources */,
 				00948223267C197000888ED7 /* HomeViewController.swift in Sources */,
 				F2752D5A2642967D009E9428 /* LatestMeal.swift in Sources */,
 				00948225267C22D000888ED7 /* CheckHelper.swift in Sources */,
+				0085EEAB26C03CA20052F726 /* SearchViewModel.swift in Sources */,
 				F2DEC25D263FEC4400DD6DFC /* AboutViewController.swift in Sources */,
-				00568E3926C0553B00E47487 /* RecipeViewModel.swift in Sources */,
-				00568E3826C0553B00E47487 /* RecipeDetailsView.swift in Sources */,
 				F2752D5E26429A96009E9428 /* CatergoriesMeal.swift in Sources */,
 				F28124C0263FA79E00280251 /* SceneDelegate.swift in Sources */,
 				F2A2C4B32641269600D59D69 /* VideoPlayerHelper.swift in Sources */,
 				F2DEC253263FCEBB00DD6DFC /* LatestViewController.swift in Sources */,
 				00948221267C183D00888ED7 /* SignUpViewController.swift in Sources */,
+				0085EEB226C03CA20052F726 /* SearchUIView.swift in Sources */,
 				F28124E2263FA86000280251 /* Custom_View.swift in Sources */,
 				F28124E1263FA86000280251 /* Custom_Segment.swift in Sources */,
+				0085EEB026C03CA20052F726 /* RecipeDetailsView.swift in Sources */,
+				0085EEAC26C03CA20052F726 /* RecipeViewModel.swift in Sources */,
 				F2752D5D26429A96009E9428 /* Catergories.swift in Sources */,
-				00568E3026C0553B00E47487 /* NewRecipeView.swift in Sources */,
-				00568E3626C0553B00E47487 /* Dish.swift in Sources */,
 				F2A2C4B8264126B600D59D69 /* CodableBundleExtension.swift in Sources */,
 				F28124DD263FA86000280251 /* ConfigureUserInterface.swift in Sources */,
 			);
@@ -721,7 +721,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		00568E3A26C055C900E47487 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+		0085EE8326C03BAE0052F726 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
 			requirement = {
@@ -732,9 +732,9 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		00568E3B26C055C900E47487 /* SDWebImageSwiftUI */ = {
+		0085EE8426C03BAE0052F726 /* SDWebImageSwiftUI */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 00568E3A26C055C900E47487 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			package = 0085EE8326C03BAE0052F726 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
 			productName = SDWebImageSwiftUI;
 		};
 /* End XCSwiftPackageProductDependency section */
