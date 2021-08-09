@@ -89,8 +89,9 @@ extension VideoViewController : UITableViewDelegate, UITableViewDataSource{
         
         let vc = storyboard?.instantiateViewController(identifier: "YoutubePlayer") as! YouTubePlayerViewController
         vc.videoNum = index
-        vc.modalPresentationStyle = .fullScreen
-        present(vc,animated:true)
+//        vc.modalPresentationStyle = .fullScreen
+//        present(vc,animated:true)
+        self.navigationController?.pushViewController(vc, animated: true)
 //        vc.videoSelected = videos[index].id
 //        vc.videoTitle = videos[index].name
         

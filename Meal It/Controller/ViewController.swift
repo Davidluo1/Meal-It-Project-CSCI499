@@ -14,7 +14,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var NextButton: UIButton!
     @IBOutlet weak var logoTopConstraint: NSLayoutConstraint!
     @IBOutlet weak var EmailTF: UITextField!
-    @IBOutlet weak var ageTF: UITextField!
     @IBOutlet weak var errorLabel: UILabel!
     @IBOutlet weak var passwordTF: UITextField!
     
@@ -69,10 +68,12 @@ class ViewController: UIViewController {
 //                self.showError("Account not found, please make sure your email and password are correct");
             }
             else {
-//                let homeViewController = self.storyboard?.instantiateViewController(identifier: SelectController.Storyboard.interestViewController) as? InterestViewController
+//                let WelcomeViewController = self.storyboard?.instantiateViewController(identifier: SelectController.Storyboard.interestViewController) as? InterestViewController
 //
-//                self.view.window?.rootViewController = homeViewController
+//                self.view.window?.rootViewController = WelcomeViewController
 //                self.view.window?.makeKeyAndVisible()
+                let WelcomeViewController = self.storyboard?.instantiateViewController(identifier: SelectController.Storyboard.interestViewController) as? InterestViewController
+                self.navigationController?.pushViewController(WelcomeViewController!, animated: true)
                 self.errorLabel.alpha = 0
                 self.NextButton.alpha = 1
             }

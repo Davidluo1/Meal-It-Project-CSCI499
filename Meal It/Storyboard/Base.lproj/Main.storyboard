@@ -205,7 +205,7 @@
                                             <color key="textColor" systemColor="systemRedColor"/>
                                             <nil key="highlightedColor"/>
                                         </label>
-                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0YH-2c-T17">
+                                        <button opaque="NO" alpha="0.0" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0YH-2c-T17">
                                             <rect key="frame" x="100" y="373" width="130" height="32"/>
                                             <color key="backgroundColor" systemColor="systemGray6Color"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="16"/>
@@ -375,7 +375,7 @@
                                             <color key="titleColor" systemColor="secondarySystemGroupedBackgroundColor"/>
                                         </state>
                                         <connections>
-                                            <segue destination="CL0-EE-rpm" kind="show" id="kbA-Kc-ex6"/>
+                                            <segue destination="CL0-EE-rpm" kind="show" id="pGZ-cq-gIn"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -2108,8 +2108,8 @@ Cg
     </designables>
     <inferredMetricsTieBreakers>
         <segue reference="7eM-wM-mKA"/>
-        <segue reference="Gex-XW-ntA"/>
-        <segue reference="zps-q0-pEQ"/>
+        <segue reference="pGZ-cq-gIn"/>
+        <segue reference="aVk-zB-fjK"/>
         <segue reference="CeC-c6-71s"/>
     </inferredMetricsTieBreakers>
     <resources>
