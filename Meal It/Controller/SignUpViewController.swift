@@ -96,10 +96,11 @@ class SignUpViewController: UIViewController {
                             self.showError("Error saving user data")
                         }
                         else {
-                            let homeViewController = self.storyboard?.instantiateViewController(identifier: SelectController.Storyboard.homeViewController) as? HomeViewController
-                            
-                            self.view.window?.rootViewController = homeViewController
-                            self.view.window?.makeKeyAndVisible()
+//                            let homeViewController = self.storyboard?.instantiateViewController(identifier: SelectController.Storyboard.homeViewController) as? HomeViewController
+//
+//                            self.view.window?.rootViewController = homeViewController
+//                            self.view.window?.makeKeyAndVisible()
+                            self.navigationController?.popViewController(animated: true)
                         }
                     }
                 }

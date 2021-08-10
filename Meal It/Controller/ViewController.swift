@@ -74,6 +74,7 @@ class ViewController: UIViewController {
 //                self.view.window?.makeKeyAndVisible()
                 let WelcomeViewController = self.storyboard?.instantiateViewController(identifier: SelectController.Storyboard.interestViewController) as? InterestViewController
                 self.navigationController?.pushViewController(WelcomeViewController!, animated: true)
+                
                 self.errorLabel.alpha = 0
 //                self.NextButton.alpha = 1
             }
