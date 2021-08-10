@@ -16,12 +16,8 @@ class AboutViewController: UIViewController {
     
 
     @IBAction func backButtonAction(){
-//        let settingView = self.storyboard?.instantiateViewController(identifier: SelectController.Storyboard.settingViewController) as? SettingViewController
-//        
-//        self.view.window?.rootViewController = settingView
-//        self.view.window?.makeKeyAndVisible()
-        
-//        self.navigationController?.popViewController(animated: true)
+
+        self.navigationController?.popViewController(animated: true)
 
     }
 

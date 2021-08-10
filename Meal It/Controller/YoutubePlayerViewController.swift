@@ -35,5 +35,9 @@ class YouTubePlayerViewController: UIViewController, YTPlayerViewDelegate{
 //        play = true
         playerView.playVideo()
     }
+    
+    @IBAction func BackButtonAction(_ sender: Any) {
+        self.navigationController?.popViewController(animated: true)
+    }
 }
 

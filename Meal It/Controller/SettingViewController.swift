@@ -36,7 +36,7 @@ class SettingViewController: UIViewController {
         
         if tag == 1{
          
-            tabBarController?.selectedIndex = 0
+            tabBarController?.selectedIndex = 2
         }
         
         else if tag == 2{
@@ -44,11 +44,11 @@ class SettingViewController: UIViewController {
         }
         
         else if tag == 3{
-            tabBarController?.selectedIndex = 2
+            tabBarController?.selectedIndex = 3
         }
         
         else if tag == 0{
-            tabBarController?.selectedIndex = 3
+            tabBarController?.selectedIndex = 0
         }
         
     }

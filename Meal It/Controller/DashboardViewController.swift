@@ -77,29 +77,27 @@ class DashboardViewController: UIViewController {
         
         let tag = sender.tag
         
-        if tag == 1{
-            tabBarController?.selectedIndex = 4
-        }
-        
-        else if tag == 2{
-            tabBarController?.selectedIndex = 0
+        if tag == 2{
+            tabBarController?.selectedIndex = 2
+            print("2")
         }
         
         else if tag == 3{
-            tabBarController?.selectedIndex = 1        }
-
-        else if tag == 4{
-            tabBarController?.selectedIndex = 2
+            tabBarController?.selectedIndex = 1
+            print("3")
         }
         
         else if tag == 0{
+            tabBarController?.selectedIndex = 0
+            print("0")
+        }
+        else if tag == 4{
             tabBarController?.selectedIndex = 3
+            print("4")
         }
     }
     
-    
- 
-
+//    0324
 }
 
 
