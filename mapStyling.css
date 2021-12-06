@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  /* background-color: lightcyan; */
+  background: linear-gradient(
+    45deg,
+    #c0f3e5,
+    #becfec,
+    #f0cabc,
+    #cfebb6,
+    #f3bbe3
+  );
+}
+
+.container-1 {
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 0 5px 0 5px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+a {
+  text-decoration: none;
+  border-radius: 20%;
+}
+
+p {
+  padding-top: 15px;
+  padding-left: 100px;
+  padding: 15px 150px 50px 150px;
+}
+
+nav > button {
+  background-color: rgb(91, 216, 116);
+  padding: 10px 30px 10px 30px;
+  border-radius: 25%;
+  border: none;
+}
+
+nav > button:hover {
+  background-color: rgb(139, 221, 155);
+  border-color: lightgreen;
+}
+
+h2 {
+  font-family: "Courier New", Courier, monospace;
+}
