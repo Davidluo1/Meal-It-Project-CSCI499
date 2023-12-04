@@ -1,8 +1,5 @@
-//
 //  AppDelegate.swift
 //  Meal It
-//
-//
 
 import UIKit
 import Firebase
