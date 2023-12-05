@@ -1,13 +1,11 @@
-//
 //  SearchUIView.swift
 //  Meal It
-//
+
 //  Created by user201339 on 8/4/21.
-//
+
 
 import SwiftUI
 import SDWebImageSwiftUI
-
 
 struct SearchUIView: View {
     @Environment(\.presentationMode) var presentation
@@ -19,8 +17,6 @@ struct SearchUIView: View {
             VStack {
                 Spacer()
                 //.padding(.horizontal)
-                
-                
                 
                 HStack {
                     Button(action: {
@@ -37,9 +33,6 @@ struct SearchUIView: View {
                 .padding(.horizontal)
                 
                 HStack {
-                    
-                    
-                
                     Text("Search result")
                         .font(.system(size: 29, weight: .bold))
                     
