@@ -3,7 +3,6 @@
 
 //  Created by user201339 on 8/4/21.
 
-
 import Foundation
 
 struct Dish: Codable {
@@ -23,7 +22,6 @@ struct Dish: Codable {
     var strIngredient7: String?
     var strIngredient8: String?
     var strIngredient9: String?
-
     
     var strMeasure1: String?
     var strMeasure2: String?
@@ -34,7 +32,6 @@ struct Dish: Codable {
     var strMeasure7: String?
     var strMeasure8: String?
     var strMeasure9: String?
-
     
     subscript(key: String) -> String? {
         switch key {
@@ -48,7 +45,6 @@ struct Dish: Codable {
         case "strIngredient8": return strIngredient8
         case "strIngredient9": return strIngredient9
 
-            
         case "strMeasure1": return strMeasure1
         case "strMeasure2": return strMeasure2
         case "strMeasure3": return strMeasure3
@@ -58,7 +54,6 @@ struct Dish: Codable {
         case "strMeasure7": return strMeasure7
         case "strMeasure8": return strMeasure8
         case "strMeasure9": return strMeasure9
-
 
         case "strInstructions": return strInstructions
             
