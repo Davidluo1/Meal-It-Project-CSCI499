@@ -1,9 +1,8 @@
-//
 //  SwiftUIView.swift
 //  Meal It
-//
+
 //  Created by user201339 on 8/4/21.
-//
+
 
 import SwiftUI
 import SDWebImageSwiftUI
@@ -13,7 +12,6 @@ struct HomeView: View {
     @State var selectedIndex = 0
     @Namespace var animation
     @State var showSearchResult = false
-    
 
     
     var body: some View {
@@ -75,8 +73,6 @@ struct HomeView: View {
             .navigationBarBackButtonHidden(true)
             .navigationBarHidden(true)
             .ignoresSafeArea(.all, edges: .all)
-                    
-
     }
 
 
