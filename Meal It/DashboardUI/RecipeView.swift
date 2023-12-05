@@ -1,9 +1,8 @@
-//
 //  RecipeView.swift
 //  Meal It
-//
+
 //  Created by user201339 on 8/3/21.
-//
+
 
 import SwiftUI
 import SDWebImageSwiftUI
@@ -31,7 +30,6 @@ struct RecipeView: View {
            viewModel.getData()
 
     }
-   
     }
     
 struct RecipeView_Previews: PreviewProvider {
