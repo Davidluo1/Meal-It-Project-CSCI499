@@ -1,16 +1,11 @@
-//
 //  DashboardViewController.swift
 //  Meal It
-//
-//
+
 
 import UIKit
 import SDWebImage
 
 class DashboardViewController: UIViewController {
-
-    
-    
     @IBOutlet weak var FindMealsButtonTF: UIButton!
     @IBOutlet  weak var collectionView : UICollectionView!
     @IBOutlet weak var dashBoardTableView : UITableView!
@@ -39,7 +34,6 @@ class DashboardViewController: UIViewController {
 //        FindMealsButtonTF.layer.shadowColor = UIColor.darkGray.cgColor
         FindMealsButtonTF.layer.shadowRadius = 4
         FindMealsButtonTF.layer.shadowOpacity = 0.6
-        
         
         
         VM.GetMeals { status, Result, Error in
@@ -129,7 +123,6 @@ extension DashboardViewController  : UITableViewDelegate, UITableViewDataSource{
         
         let cell = tableView.dequeueReusableCell(withIdentifier: "Dashboard", for: indexPath) as! MealItTableViewCell
         
-        
         cell.Title.alpha = 0
         
         UIView.animate(withDuration: 2) {
@@ -137,8 +130,6 @@ extension DashboardViewController  : UITableViewDelegate, UITableViewDataSource{
             cell.Title.alpha = 1
         }
        
-        
-        
         let imageurl  = URL(string: allRecipe?.meals![indexPath.row].strMealThumb ?? "")
      
         cell.smoothieImage.sd_setImage(with: imageurl, placeholderImage: UIImage(named: "logo")!, options: .progressiveLoad, progress: .none, completed: .none)
@@ -148,7 +139,5 @@ extension DashboardViewController  : UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
         return 100
-        
-      
     }
 }
