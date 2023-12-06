@@ -1,16 +1,11 @@
-//
 //  FavouriteViewController.swift
 //  Meal It
-//
-//
+
 
 import UIKit
 import SDWebImage
 
-class LatestViewController: UIViewController {
-
-    
-    
+class LatestViewController: UIViewController { 
     @IBOutlet weak var LatestTableView : UITableView!
     
     var latestList : Latest?
@@ -39,13 +34,10 @@ class LatestViewController: UIViewController {
                 }
             }
         }
-
     }
     
     
-    
     @IBAction func onClickTabBar(_ sender: UIButton){
-        
         let tag = sender.tag
         
         if tag == 1{
@@ -76,7 +68,6 @@ class LatestViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
 
 
