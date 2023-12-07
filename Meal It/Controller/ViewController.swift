@@ -1,16 +1,12 @@
-//
 //  ViewController.swift
 //  Meal It
-//
-//
+
 
 import UIKit
 import Firebase
 import FirebaseAuth
 
 class ViewController: UIViewController {
-
-    
     @IBOutlet weak var NextButton: UIButton!
     @IBOutlet weak var logoTopConstraint: NSLayoutConstraint!
     @IBOutlet weak var EmailTF: UITextField!
@@ -25,7 +21,6 @@ class ViewController: UIViewController {
         blurView.layer.masksToBounds = true
 
 //        logoTopConstraint.constant = 120
-
 
 //       let value = UserDefaults.standard.dictionary(forKey: "PERSONAL")
 //
