@@ -1,9 +1,8 @@
-//
 //  YoutubePlayerViewController.swift
 //  Meal It
-//
+
 //  Created by David Luo on 7/15/21.
-//
+
 
 //import UIKit
 //import youtube_ios_player_helper
@@ -13,7 +12,6 @@ import AVKit
 import youtube_ios_player_helper
 
 class YouTubePlayerViewController: UIViewController, YTPlayerViewDelegate{
-
     @IBOutlet weak var loadingTF: UILabel!
     @IBOutlet var playerView: YTPlayerView!
     var videoNum: Int?
@@ -29,7 +27,6 @@ class YouTubePlayerViewController: UIViewController, YTPlayerViewDelegate{
 //            loadingTF.alpha = 0
 //        }
     }
-    
     
     func playerViewDidBecomeReady(_ playerView: YTPlayerView, didSelectRowAt indexPath: IndexPath) {
 //        play = true
