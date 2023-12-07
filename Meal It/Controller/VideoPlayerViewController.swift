@@ -1,8 +1,6 @@
-//
 //  VideoPlayerViewController.swift
 //  Meal It
-//
-//
+
 
 import UIKit
 import AVKit
@@ -10,8 +8,6 @@ import youtube_ios_player_helper
 
 
 class VideoPlayerViewController: UIViewController, YTPlayerViewDelegate {
-
-    
     @IBOutlet weak var playStatus : UILabel!
     
     var player = AVPlayer()
@@ -32,9 +28,7 @@ class VideoPlayerViewController: UIViewController, YTPlayerViewDelegate {
             view.layer.addSublayer(layer)
           player.play()
         }
-
     }
-    
 
     @IBAction func backButtonAction(){
         player.pause()
@@ -53,7 +47,5 @@ class VideoPlayerViewController: UIViewController, YTPlayerViewDelegate {
             isPlay = true
 
         }
-       
     }
-
 }
