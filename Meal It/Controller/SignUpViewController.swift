@@ -1,16 +1,14 @@
-//
 //  SignUpViewController.swift
 //  Meal It
-//
+
 //  Created by David Luo on 6/17/21.
-//
+
 
 import UIKit
 import FirebaseAuth
 import Firebase
 
 class SignUpViewController: UIViewController {
-    
     @IBOutlet weak var EmailTF: UITextField!
     @IBOutlet weak var firstNameTF: UITextField!
     @IBOutlet weak var lastNameTF: UITextField!
@@ -104,10 +102,8 @@ class SignUpViewController: UIViewController {
                         }
                     }
                 }
-
             }
         }
-
     }
     
     // error show function
@@ -116,5 +112,4 @@ class SignUpViewController: UIViewController {
         errorLabel.text = message
         errorLabel.alpha = 1
     }
-
 }
