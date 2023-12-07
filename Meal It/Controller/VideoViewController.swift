@@ -1,13 +1,10 @@
-//
 //  VideoViewController.swift
 //  Meal It
-//
-//
+
 
 import UIKit
 
 class VideoViewController: UIViewController {
-
     @IBOutlet weak var videoTableView : UITableView!
     
     var videos: [Video] = Bundle.main.decode("videos.json")
@@ -16,7 +13,6 @@ class VideoViewController: UIViewController {
         super.viewDidLoad()
 
         tabBarController?.tabBar.isHidden = true
-        
         
         videoTableView.delegate = self
         videoTableView.dataSource = self
@@ -45,7 +41,6 @@ class VideoViewController: UIViewController {
         else if tag == 0{
             tabBarController?.selectedIndex = 0
         }
-        
     }
 
     /*
@@ -57,7 +52,6 @@ class VideoViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-
 }
 
 
