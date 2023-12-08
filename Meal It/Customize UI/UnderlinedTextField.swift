@@ -1,7 +1,5 @@
-//
 //  Custom_View.swift
-//
-//
+
 
 import UIKit
 
@@ -105,6 +103,4 @@ class UnderlinedTextField: UITextField {
         self.layer.borderWidth = CGFloat(0.5)
         self.layer.cornerRadius = 5
     }
-    
-
 }
