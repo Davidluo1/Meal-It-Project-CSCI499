@@ -1,19 +1,14 @@
-//
 //  Custom_ImageView.swift
-//
-//
 
 import UIKit
 
 @IBDesignable class Custom_ImageView: UIImageView {
-
     @IBInspectable
     var C_Radius : CGFloat = 0 {
         didSet{
             layer.cornerRadius = C_Radius
             layer.masksToBounds = true
         }
-        
     }
     
     @IBInspectable
@@ -77,7 +72,5 @@ import UIKit
             
             layer.borderWidth = border_width
         }
-        
     }
-
 }
