@@ -5,6 +5,7 @@
 
 
 import Foundation
+
 struct Constants {
     static let baseURl = "https://themealdb.com/api/json/v1/1"
 }
