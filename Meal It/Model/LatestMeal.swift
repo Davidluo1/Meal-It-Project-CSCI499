@@ -5,7 +5,6 @@
 import Foundation
 
 struct LatestMeal : Codable {
-
 //        let dateModified : AnyObject?
         let idMeal : String?
         let strArea : String?
