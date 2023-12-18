@@ -20,16 +20,16 @@ struct RecipeView: View {
                         destination: RecipeDetailsView(item: item), label: {NewRecipesView(item: item)})
                   
                         }
-        }
+            }
             
         .navigationBarHidden(true)
         .padding(.horizontal)
-            }
+        }
         
         .onAppear{
            viewModel.getData()
 
-    }
+        }
     }
     
 struct RecipeView_Previews: PreviewProvider {
