@@ -1,6 +1,5 @@
 //  CheckHelper.swift
 //  Meal It
-
 //  Created by David Luo on 6/17/21.
 
 import Foundation
