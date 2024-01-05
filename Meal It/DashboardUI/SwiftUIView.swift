@@ -1,6 +1,5 @@
 //  SwiftUIView.swift
 //  Meal It
-
 //  Created by user201339 on 8/4/21.
 
 
@@ -13,7 +12,6 @@ struct HomeView: View {
     @Namespace var animation
     @State var showSearchResult = false
 
-    
     var body: some View {
         
         NavigationView {
