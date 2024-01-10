@@ -49,7 +49,6 @@ class UnderlinedTextField: UITextField {
                 self.addSubview(imageView)
             }
         }
-        
     }
     
     
@@ -60,7 +59,6 @@ class UnderlinedTextField: UITextField {
     override func editingRect(forBounds bounds: CGRect) -> CGRect {
         return CGRect(x: indentation, y: bounds.origin.y, width: bounds.width, height: bounds.height)
     }
-    
     
     enum Direction {
         case Left
