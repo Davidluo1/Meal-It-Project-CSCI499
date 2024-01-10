@@ -41,7 +41,6 @@ class Custom_Segment: UIControl {
         }
     }
     
-    
     @IBInspectable
     var selectorColor : UIColor = .blue{
         
@@ -49,7 +48,6 @@ class Custom_Segment: UIControl {
             updateView()
         }
     }
-    
     
     @IBInspectable
     var selectorTextColor : UIColor = .white{
@@ -63,9 +61,6 @@ class Custom_Segment: UIControl {
         
         buttons.removeAll()
         subviews.forEach{$0.removeFromSuperview()}
-        
-        
-        
         
         let buttonTitles = commaSeparatedButtonTitle.components(separatedBy: ",")
         
@@ -112,9 +107,7 @@ class Custom_Segment: UIControl {
                 
                 selectedSegmentIndex = buttonIndex
                 let selectorInitialPosition = frame.width/CGFloat(buttons.count) * CGFloat(buttonIndex)
-                
-               
-                
+                   
                 UIView.animate(withDuration: 0.3) {
                     self.selector.frame.origin.x = selectorInitialPosition
                 }
