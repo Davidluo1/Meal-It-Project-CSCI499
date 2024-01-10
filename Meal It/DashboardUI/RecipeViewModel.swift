@@ -25,7 +25,7 @@ class RecipeViewModel: ObservableObject {
                         self.items = search.meals
                         print(search)
                         return
-                }
+                    }
                 }
                 catch {
                     print(error)
