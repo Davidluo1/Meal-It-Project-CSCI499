@@ -64,7 +64,7 @@ struct SearchUIView: View {
         .navigationBarBackButtonHidden(true)
         .onAppear {
             viewModel.fetchData(query: self.search)
-        }
+            }
         .navigationBarHidden(true)
         .background(Image("background").resizable().ignoresSafeArea())
     }
