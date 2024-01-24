@@ -59,7 +59,6 @@ import UIKit
     }
     
     @IBInspectable var border_color : UIColor = UIColor.clear {
-        
         didSet{
             layer.borderWidth = 1
             
@@ -69,7 +68,6 @@ import UIKit
     
     @IBInspectable var border_width : CGFloat = 0{
         didSet{
-            
             layer.borderWidth = border_width
         }
     }
