@@ -6,17 +6,13 @@ import UIKit
 @IBDesignable class Custom_Button: UIButton {
     // ****** Setting Corner Radius ***********
     @IBInspectable var cornerRadius : CGFloat = 0{
-        
         didSet{
-            
             layer.cornerRadius = cornerRadius
-        
         }
     }
     
     // ******* Setting Border Color *******
     @IBInspectable var border_color : UIColor = UIColor.clear {
-        
         didSet{
             layer.borderWidth = 1
         
