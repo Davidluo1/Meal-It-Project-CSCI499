@@ -7,7 +7,6 @@ class Custom_Label: UILabel {
     @IBInspectable var C_Radius : CGFloat = 0 {
         didSet{
             layer.cornerRadius = C_Radius
-                 
         }
     }
     @IBInspectable
@@ -31,7 +30,6 @@ class Custom_Label: UILabel {
     }
     
     @IBInspectable var border_color : UIColor = UIColor.clear {
-        
         didSet{
             layer.borderWidth = 1
             
@@ -41,7 +39,6 @@ class Custom_Label: UILabel {
     
     @IBInspectable var border_width : CGFloat = 0{
         didSet{
-            
             layer.borderWidth = border_width
         }
     }
