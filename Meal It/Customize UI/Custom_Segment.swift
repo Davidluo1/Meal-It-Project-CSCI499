@@ -20,7 +20,6 @@ class Custom_Segment: UIControl {
         
         didSet{
             layer.borderWidth = 1
-            
             layer.borderColor = border_color.cgColor
         }
     }
