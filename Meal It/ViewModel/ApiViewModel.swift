@@ -74,7 +74,6 @@ class ApiViewModel: ObservableObject{
         })
 
         dataTask.resume()
-      
     }
     
     func GetCatergories(completion: @escaping(_ status : Bool,_ getData : Catergories,_ err : String?)->() ){
