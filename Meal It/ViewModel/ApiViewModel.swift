@@ -108,9 +108,7 @@ class ApiViewModel: ObservableObject{
                 }
             }
         })
-
         dataTask.resume()
-      
     }
 }
 
