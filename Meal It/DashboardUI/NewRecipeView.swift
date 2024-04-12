@@ -43,7 +43,6 @@ struct NewRecipesView: View{
                     .padding(6)
                 } 
             }
-            
             .navigationBarHidden(true)
             .frame(width: UIScreen.main.bounds.width - 30)
             .background(RoundedRectangle(cornerRadius: 10).strokeBorder(Color.black.opacity(0.3), lineWidth: 1))
