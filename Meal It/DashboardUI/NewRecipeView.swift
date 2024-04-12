@@ -36,13 +36,11 @@ struct NewRecipesView: View{
                         .redacted(reason: item.strMealThumb == nil ? .placeholder : .init())
                         .frame(width: 100, height: 100)
                     
-            
                     .padding(6)
                     
                     .background(Color.black.opacity(0.4))
                 
                     .padding(6)
-                    
                 } 
             }
             
