@@ -1,8 +1,6 @@
 //  ApiViewModel.swift
 
-
 import Foundation
-  
 
 class ApiViewModel: ObservableObject{
 
